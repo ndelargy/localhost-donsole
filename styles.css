@@ -1,0 +1,72 @@
+body, textarea, input {
+    font: 12px monospace;
+}
+
+body {
+    background: #eee;
+}
+
+input {
+    width: 99%;
+    margin: auto;
+    display: block;
+    height: 30px;
+    font-size: 20px;
+}
+
+a {
+    color: #88f;
+}
+
+.output, textarea {
+    border: 1px solid #aaa;
+    background: #fff;
+}
+
+textarea {
+    width: 99%;
+    height: 400px;
+    margin: auto;
+    display: block;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.output {
+    padding: 5px 10px;
+    margin: 10px .4%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.output img.loader {
+    margin-bottom: -4px;
+}
+
+.statusbar {
+    margin: 0 .5% 10px;
+    padding: 2px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #aaa;
+    border-top: 0;
+}
+
+.help {
+    width: 33%;
+    float: left;
+    white-space: pre;
+}
+
+.footer {
+    width: 100%;
+    clear: left;
+    text-align: center;
+    color: #aaa;
+}
+.footer a {
+    color: #aaa;
+}
